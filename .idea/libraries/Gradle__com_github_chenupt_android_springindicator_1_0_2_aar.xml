@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.chenupt.android:springindicator:1.0.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/67b9673b035325510bce1e291f80343b/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/67b9673b035325510bce1e291f80343b/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.chenupt.android/springindicator/1.0.2/a3f538e8002360c69991390acfe41148ff6081af/springindicator-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,51 @@
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+    <!--<item android:state_empty="true">-->
+        <!--<layer-list>-->
+            <!--<item-->
+                <!--android:left="10dp"-->
+                <!--android:right="0dp"-->
+                <!--android:top="27dp"-->
+                <!--android:bottom="27dp"-->
+                <!--android:drawable="@drawable/ic_arrow_drop_down">-->
+            <!--</item>-->
+        <!--</layer-list>-->
+    <!--</item>-->
+
+    <!--<item android:state_expanded="true">-->
+        <!--<layer-list>-->
+            <!--<item-->
+                <!--android:left="10dp"-->
+                <!--android:right="0dp"-->
+                <!--android:top="27dp"-->
+                <!--android:bottom="27dp"-->
+                <!--android:drawable="@drawable/ic_arrow_drop_downc">-->
+            <!--</item>-->
+        <!--</layer-list>-->
+    <!--</item>-->
+
+<!--</selector>-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_empty="true">
+    <layer-list>
+        <item
+            android:left="8dp"
+            android:right="2dp"
+            android:gravity="center"
+            android:drawable="@drawable/ic_arrow_drop_down">
+        </item>
+    </layer-list>
+    </item>
+    <item android:state_expanded="true">
+        <layer-list>
+            <item
+                android:left="8dp"
+                android:right="2dp"
+                android:gravity="center"
+                android:drawable="@drawable/ic_arrow_drop_downc">
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_expanded="true" android:drawable="@drawable/ic_arrow_drop_downc" />
+    <item android:drawable="@drawable/ic_arrow_drop_down" />
+</selector>

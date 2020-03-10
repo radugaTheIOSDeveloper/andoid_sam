@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "983388098395",
+    "firebase_url": "https://samapp-46b3c.firebaseio.com",
+    "project_id": "samapp-46b3c",
+    "storage_bucket": "samapp-46b3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983388098395:android:517670bd60b2fa824fd47e",
+        "android_client_info": {
+          "package_name": "ru.pomoysam.itstack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983388098395-r1482t78rj3ppbd5lpv2c001ecbiuc7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCtMyfLk8N44BpFcJfjNqD5k4K9Kqbass"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983388098395-r1482t78rj3ppbd5lpv2c001ecbiuc7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.pomoysam.itstack">
+    <!-- package="com.example.car_wash_sam"> -->
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_small_3x"
+        android:label="@string/app_name"
+        android:noHistory="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PaymentGood"
+            android:theme="@style/AppThemes"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".TestActivity" />
+        <activity android:name=".PaymentCardBind"
+            android:screenOrientation="portrait"
+            /> <!-- <activity -->
+        <!-- android:name=".ui.login.PaymentCardBind" -->
+        <!-- android:label="@string/title_activity_payment_card_bind" /> -->
+        <activity
+            android:name=".StartActivityTwo"
+            android:theme="@style/NoTheme"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".StartActivityOne"
+            android:theme="@style/NoTheme"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".RegistrationFull"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".RegistrVerification"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".PayActivity"
+            android:label="Покупка"
+            android:theme="@style/AppThemes"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ByActivity"
+            android:label="Купить жетоны"
+            android:theme="@style/AppThemes"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".QRCodeActivity"
+            android:label="QRCode"
+            android:theme="@style/AppThemes"
+            android:screenOrientation="portrait"
+            />
+
+        <!--<meta-data-->
+            <!--android:name="com.google.android.geo.API_KEY"-->
+            <!--android:value="AIzaSyBHERiQkvXKAyPBKCxdDXRZYPX5Pk6S7Y8" />-->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCKBasgudCzDph2h1B0yBA1tBgtHF3tKpc" />
+
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+
+        <activity
+            android:name=".NavigationActivity"
+            android:label="Новости"
+            android:theme="@style/AppThemes"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/NoTheme"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".NewPasswordActivity"
+            android:theme="@style/NoTheme"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".RecoverySMS"
+            android:theme="@style/NoTheme"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".RecoveryActivity"
+            android:theme="@style/NoTheme"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".LicenseActivity"
+            android:theme="@style/NoTheme"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".RegistActivity"
+            android:theme="@style/NoTheme"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".StartActivity"
+            android:theme="@style/NoTheme"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.myapp.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.yandex.money:checkout:2.3.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/16a1914337661f27f82ab24a3704bbb6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/16a1914337661f27f82ab24a3704bbb6/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.yandex.money/checkout/2.3.0/b5e7229b0a74cc91fbec96b66876ecf08b20c9eb/checkout-2.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTextLine">#D8D8D8</color>
+    <color name="textColorHint">#C0C0C0</color>
+    <color name="graylight">#C0C0C0</color>
+
+    <color name="progressBar">#E73336</color>
+    <color name="black">#000000</color>
+    <color name="gray">#4A4A4A</color>
+    <color name="color_question_text">#4A4A4A</color>
+    <color name="color_question_background">#14E73336</color>
+
+
+
+
+</resources>

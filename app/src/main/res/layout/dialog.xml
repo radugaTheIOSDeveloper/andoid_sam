@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/rectanglegood">
+
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+
+        app:srcCompat="@drawable/samlogogood" />
+
+    <TextView
+        android:id="@+id/nameMarker"
+        android:layout_width="171dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/navigation"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/buy"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonred"
+        android:layout_marginTop="10dp"
+
+        android:text="Проложить маршрут"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/buy"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/buttonred"
+        android:layout_gravity="center|bottom"
+        android:text="купить жетоны"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="8sp" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/questionFragment"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/questionTitleNext"
+        android:layout_width="300dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/questionsTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/color_question_text"
+        android:textSize="14dp"/>
+
+    <TextView
+        android:id="@+id/questionBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="93dp"
+        android:layout_marginRight="93dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/questionsButon"
+        android:textColor="@color/progressBar"
+        android:textSize="14dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/questionTitleNext"
+        app:layout_constraintEnd_toEndOf="@+id/questionTitleNext" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/questionTitleNext"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/tvInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black"
+            android:textSize="14dp">
+
+        </TextView>
+
+        <ExpandableListView
+            android:id="@+id/elvMain"
+            style="@android:style/Widget.DeviceDefault.Light.ExpandableListView"
+            android:layout_width="320dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="180dp"
+            android:indicatorLeft="280dp"
+            android:groupIndicator="@drawable/indicator"
+            android:childDivider="@color/color_question_background"
+            ></ExpandableListView>
+    </LinearLayout>
+
+
+
+    <ProgressBar
+        android:id="@+id/progressBarQuestion"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:progressTint="@color/progressBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/balllsByFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/infoSizeBalls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+
+        android:text="TextView"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/summballs"
+        app:layout_constraintStart_toEndOf="@+id/summballs" />
+
+
+    <Button
+        android:id="@+id/btnballspol"
+        android:layout_width="285dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/buttonred"
+        android:text="Получить"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/summballs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Остаток баллов:"
+        app:layout_constraintBottom_toTopOf="@+id/btnballspol"
+        app:layout_constraintStart_toStartOf="@+id/btnballspol" />
+
+    <TextView
+        android:id="@+id/ztwballs"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+
+        android:layout_marginTop="16dp"
+        android:text="@string/by2"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/minusballs" />
+
+    <Button
+        android:id="@+id/plusballs"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/plus"
+        app:layout_constraintEnd_toEndOf="@+id/infotextdetail"
+        app:layout_constraintTop_toBottomOf="@+id/infotextdetail" />
+
+    <TextView
+        android:id="@+id/numballs"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/minusballs"
+        app:layout_constraintEnd_toStartOf="@+id/plusballs"
+        app:layout_constraintStart_toEndOf="@+id/minusballs"
+        app:layout_constraintTop_toTopOf="@+id/minusballs" />
+
+    <Button
+        android:id="@+id/minusballs"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="12dp"
+        android:background="@drawable/minus"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infotextdetail" />
+
+    <TextView
+        android:id="@+id/tvballs"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/min3"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="@+id/infotextdetail"
+        app:layout_constraintTop_toBottomOf="@+id/infotextdetail" />
+
+    <TextView
+        android:id="@+id/infotextdetail"
+        android:layout_width="351dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/balltext4"
+        android:textAlignment="center"
+        android:textColor="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:progressTint="@color/progressBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

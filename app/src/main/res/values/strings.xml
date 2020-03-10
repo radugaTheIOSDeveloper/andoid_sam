@@ -1,0 +1,155 @@
+<resources>
+
+    <string name="app_name">Мойка САМ</string>
+    <string name="come">Войти</string>
+    <string name="forgotpass">Забыли пароль?</string>
+    <string name="notacc">У вас еще нет аккаунта?</string>
+    <string name="yesacc">У вас уже есть аккаунт?</string>
+
+    <string name="washsam">Сеть автомоек самообслуживания "САМ"</string>
+    <string name="registr">Регистрация</string>
+    <string name="phone">Номер телефона</string>
+    <string name="password">Пароль</string>
+
+
+    <string name="reg">Зарегистрироваться</string>
+    <string name="licenseAgreement">Нажимая кнопку  "Зарегистрироваться вы принимаете"</string>
+    <string name="licenseAgreementTextBtn">Условия пользовательского соглашения"</string>
+    <string name="trueAcc">У вас уже есть аккаунт?</string>
+
+    <string name="enterPhoneNumber">Введите Ваш номер телефона</string>
+    <string name="recoveryPass">Восстановление пароля</string>
+    <string name="recoverTextBtn">Восстановить</string>
+
+    <string name="enterSMS">На ваш номер отправлено SMS\n сообщение с кодом подтверждения</string>
+    <string name="code">Код подтверждения</string>
+    <string name="newPassText">Придумайте ваш новый пароль</string>
+    <string name="newPass">Ваш новый пароль</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+
+    <string name="sam">"САМ"</string>
+    <string name="myBy">"Мои покупки"</string>
+    <string name="myByBtn">"Купить жетоны"</string>
+
+    <string name="question">"Задать вопрос"</string>
+    <string name="instruction">"Инструкция"</string>
+    <string name="maps">"Карта"</string>
+    <string name="showall">Показать все</string>
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="tree">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+
+
+    <string name="balltext1">С каждой покупки Вам зачисляется 10%от\nоплаченной суммы в виде баллов</string>
+    <string name="balltext2">1 рубль = 1 балл
+        50 баллов = 1 жетон</string>
+    <string name="balltext3">Для того, чтобы воспользоваться баллами,\nВам необходимо набрать в сумме\nне менее 50 баллов</string>
+    <string name="balltext4">На вашем счете 220 балловю.\nВы можете приобрести максимум 4 жетона</string>
+
+
+    <string name="qrscan">Для лучшего прочтения QR кода, попробуйте поставить яркость экрана телефона на максимум  </string>
+    <string name="qrtext">Отсканируйте QR код разменном аппарате и получите жетоны на мойку</string>
+
+
+    <string name="by1">Выберите сколько Вам нужно жетонов.\nВ среднем на мойку хватает 3 жетона</string>
+    <string name="by2">*Жетоны действуют и на пылесос</string>
+    <string name="min2"> 1 жетон\n50 рублей</string>
+    <string name="min4">‎ 4 минуты \n100 рублей</string>
+    <string name="min3"> 1 жетон\n50 баллов</string>
+
+    <string name="by">Оплатить</string>
+
+    <string name="infoBy1">Общее время:</string>
+    <string name="infoBy2">Сумма:</string>
+    <string name="infoBy3">Вам будет начисленно:</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="rawActiver">Для получения жетонов на мойку выберите
+        желаемую покупку:</string>
+    <string name="textview">TextView</string>
+    <string name="questionsTitle">Вы можете отправить нам любой вопрос, описание возникшей проблемы или предложение, </string>
+    <string name="questionsButon">заполнив форму</string>
+    <string name="questionsTitleNext">Вы можете отправить нам любой вопрос, описание возникшей проблемы или предложение. </string>
+
+    <string name="question_good_logo">Вы успешно отправили свой запрос. Спасибо за использование приложения автомойки самообслуживания САМ.</string>
+
+    <string name="question_good_detail">Мы свяжемся с Вами, как только\nзапрос поступит в обработку.</string>
+    <string name="active_text_false">У Вас нет активных покупок.</string>
+    <string name="inactive_text_false">У Вас нет неактивных покупок.</string>
+
+    <string name="balls">1 балл = 1 рубль\n50 баллов = 1 жетон</string>
+
+
+    <string name="start_payment">Start the payment process</string>
+    <string name="settings">Settings</string>
+    <string name="yandex_checkout_logo">Yandex.Checkout logo</string>
+    <string name="test_mode">Test mode</string>
+    <string name="payment_authorized">You\'ve signed into the Wallet</string>
+    <string name="linked_cards">Linked cards</string>
+    <string name="complete_payment_with_error">Complete the payment with an error</string>
+    <string name="payment_type">Payment methods</string>
+    <string name="main_buy">Buy</string>
+    <string name="main_toolbar_title">Placing an order</string>
+    <string name="main_product_name">Comet</string>
+    <string name="main_product_description">Very bright, with an orbital period of 112 years.</string>
+    <string name="main_price">Price</string>
+    <string name="save">Save</string>
+    <string name="binded_cards_max_cards">Maximum 5 linked cards</string>
+    <string name="success_screen_token_is_ready">Token is ready</string>
+    <string name="success_screen_token_instructions">Create payment with Yandex.Checkout API, pass this token to the payment_token parameter</string>
+    <string name="success_screen_open_documentation">Open documentation</string>
+    <string name="success_screen_open_github">README and source code on Github</string>
+    <string name="success_screen_show_token">Show token</string>
+    <string name="token_copy">Copy</string>
+    <string name="token_cancel">Cancel</string>
+    <string name="checkout_documentation_link">https://checkout.yandex.com/docs/client-sdks/#mobile-sdk</string>
+    <string name="checkout_github_link" translatable="false">https://github.com/yandex-money/yandex-checkout-android-sdk</string>
+    <string name="version_template">Version %1$s of mobile SDK\nfrom %2$tD, build %3$d</string>
+    <string name="google_pay">Google Pay</string>
+    <string name="pay_with_token">Pay with this token</string>
+    <string name="button_close">Close</string>
+    <string name="tokenization_canceled">Tokenization canceled</string>
+    <string name="success_3ds">3ds was completed</string>
+    <string name="cancel_3ds">3ds was canceled</string>
+    <string name="error_code_3ds">Error code: </string>
+    <string name="error_description_3ds">Error description: </string>
+    <string name="error_failing_url_3ds">Error url: </string>
+    <string name="hint_3ds_input">Input 3ds url</string>
+    <string name="confirm_3ds">Confirm</string>
+    <string name="error_wrong_url">Wrong url</string>
+    <string name="color_scheme_title">Color scheme</string>
+    <string name="color_scheme_hint">0–255</string>
+    <string name="color_scheme_red_value_title">Red:</string>
+    <string name="color_scheme_green_value_title">Green:</string>
+    <string name="color_scheme_blue_value_title">Blue:</string>
+    <string name="test_phone_number" translatable="false">+79991234567</string>
+    <string name="test_redirect_url" translatable="false">https://custom.redirect.url/</string>
+    <string name="autofill_user_phone_number">Phone number autofill</string>
+    <string name="show_fee">Add fee to the test payment</string>
+    <string name="test_fee">Fee</string>
+    <string name="test_fee_hint">Fee to display on the contract screen</string>
+    <string name="button">Button</string>
+    <string name="title_activity_payment_card_bind">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+</resources>

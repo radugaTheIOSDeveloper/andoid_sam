@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/backgroundRow"
+        android:layout_width="397dp"
+        android:layout_height="151dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/common_google_signin_btn_text_dark_default" />
+
+    <ImageView
+        android:id="@+id/backgroundImageMap"
+        android:layout_width="329dp"
+        android:layout_height="127dp"
+        app:layout_constraintBottom_toBottomOf="@+id/backgroundRow"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundRow"
+        app:layout_constraintStart_toStartOf="@+id/backgroundRow"
+        app:layout_constraintTop_toTopOf="@+id/backgroundRow"
+        app:srcCompat="@drawable/uilms"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/nameMap"
+        android:layout_width="238dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="6dp"
+        android:text="TextView"
+        android:textSize="12dp"
+        app:layout_constraintStart_toEndOf="@+id/logoMap"
+        app:layout_constraintTop_toTopOf="@+id/backgroundImageMap" />
+
+    <ImageView
+        android:id="@+id/logoMap"
+        android:layout_width="40dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/backgroundImageMap"
+        app:layout_constraintTop_toTopOf="@+id/backgroundImageMap"
+        app:srcCompat="@drawable/logo_geo" />
+
+</android.support.constraint.ConstraintLayout>

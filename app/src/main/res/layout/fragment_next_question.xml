@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        android:id="@+id/questionTitleNext"
+        android:layout_width="300dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/questionsTitleNext"
+        android:textColor="@color/color_question_text"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/rectangle_img_faq"
+        android:layout_width="313dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/questionTitleNext"
+        app:srcCompat="@drawable/rectangl_faq" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/editTextFaq"
+        android:layout_width="286dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/progressBar"
+        android:hint="Опишите вашу проблему или ваши пожелания"
+        android:text=""
+        android:textCursorDrawable="@color/progressBar"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toStartOf="@+id/rectangle_img_faq"
+        app:layout_constraintStart_toEndOf="@+id/rectangle_img_faq"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerfaq" />
+
+    <Spinner
+        android:id="@+id/spinnerfaq"
+        android:layout_width="290dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/cardview_light_background"
+        app:layout_constraintEnd_toStartOf="@+id/rectangle_img_faq"
+        app:layout_constraintStart_toEndOf="@+id/rectangle_img_faq"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_img_faq" />
+
+    <ProgressBar
+        android:id="@+id/progressBarfqnext"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:progressTint="@color/progressBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonfqnext"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/buttonred"
+        android:text="Отправить"
+        android:textColor="@color/cardview_light_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerfaq"
+        app:layout_constraintEnd_toEndOf="@+id/spinnerfaq"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerfaq"
+        app:srcCompat="@drawable/ic_arrow_drop_down" />
+
+</android.support.constraint.ConstraintLayout>

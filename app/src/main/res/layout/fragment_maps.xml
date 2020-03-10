@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <TabHost
+        android:id="@+id/tabHostMap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/tabMap1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical">
+
+                    <ScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="503dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="19dp"
+                        android:layout_marginLeft="19dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="21dp"
+                        android:layout_marginRight="21dp"
+                        android:layout_marginBottom="110dp"
+                        android:gravity="center"
+                        android:scrollbars="none">
+
+                        <TableLayout
+                            android:id="@+id/tableLayoutMap"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:isScrollContainer="true"
+                            android:minHeight="100dp">
+
+                        </TableLayout>
+
+
+                    </ScrollView>
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/tabMap2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"/>
+
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</android.support.constraint.ConstraintLayout>
